@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    border: 2px solid grey;
+    padding: 5px;
+}
+h1{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+.pfp{
+    border-radius: 50%;
+}
+h1 a:hover{
+    text-decoration: none;
+    color: red;
+}
+h1 a {
+  text-decoration: none;
+  color: #000;
+}
+h1 a span {
+    color: red;
+}
+input{
+    width: 50%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgray;
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+.barra ul{
+    padding:0;
+    margin:0;
+    align-items: center;
+}
+.barra ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.barra ul li a {
+    align-items: center;
+    flex: 1;
+    font-size: 1em;
+    flex-basis: auto;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid gray;
+    padding: 3px;
+}
+.barra ul li a:hover {
+    background-color: #eee;
+}
+.videos{
+    border: 1px solid lightgray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.videos img{
+    align-items: center;
+    width: 150px;
+    height: 100px;
+}
+.videos p {
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 75%;
+}
+.videos div{
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
